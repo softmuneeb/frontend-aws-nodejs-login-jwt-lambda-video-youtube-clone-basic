@@ -51,3 +51,17 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Special thanks to Muneeb Zubair Khan for leading the development and contributing to this project, demonstrating his extensive experience in blockchain development, application development, web development, and Amazon Web Services.
+
+
+### Todo
+
+- [x] ✅  login signup jwt
+- [ ] ❌  host on lambda
+- [ ] ❌  add video support
+
+### Todo Later
+- Try cloudflare workers
+- Cloud Flare pages
+- S3 Static Hosting
+- NextJs on Cloud Flare pages will eliminate Lambda and we only need DB etc...dynamo, mongo etc
+- When to choose Lambda over EC2 and viceversa casestudy Amazon Prime cut cost when moved from lambda to ec2 due saving costs in batch processing videos
