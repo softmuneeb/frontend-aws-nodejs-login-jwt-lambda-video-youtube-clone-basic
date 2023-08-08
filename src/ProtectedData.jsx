@@ -1,3 +1,4 @@
+import api from './api';
 import { useState, useEffect } from 'react';
 
 export default function ProtectedData() {
@@ -6,7 +7,7 @@ export default function ProtectedData() {
   useEffect(() => {
     const fetchData = async () => {
       const token = localStorage.getItem('token');
-      const response = await fetch('http://localhost:3000/protected-data', {
+      const response = await fetch(`${api}/protected-data`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       const result = await response.json();
